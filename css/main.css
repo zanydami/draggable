@@ -83,20 +83,14 @@ body {
     }
 }
 
-/* A unit of "dppx" is implied: */
-@media (-webkit-min-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (min-resolution: 2dppx) {
-  /* … */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /* CSS правила для retina */
 }
 
-/* Similarly: */
-@media (-webkit-max-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (max-resolution: 2dppx) {
-  /* … */
+/* 1.25 dpr */
+@media
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi){
+    /* CSS правила для retina */
 }
