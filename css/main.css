@@ -50,7 +50,7 @@ body {
 
 .gallery__item {
     margin-bottom: var(--gap);
-    transform: scale(1.001);
+    transform: scale(1);
     will-change: transform;
     transition: .6s;
 }
