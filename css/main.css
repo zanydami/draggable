@@ -37,7 +37,6 @@ body {
     font-size: calc(var(--index) * .75);
     text-shadow: 0 0 15px #3d2b2b;
     margin-top: 5px;
-    opacity: 0;
 }
 
 .gallery {
